@@ -16,7 +16,6 @@
         "vitest": "^4.0.18",
       },
       "peerDependencies": {
-        "@sinclair/typebox": "^0.34.48",
         "typescript": "^5",
       },
     },

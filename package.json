@@ -39,12 +39,11 @@
     "vitest": "^4.0.18"
   },
   "peerDependencies": {
-    "typescript": "^5",
-    "@sinclair/typebox": "^0.34.48"
+    "typescript": "^5"
   },
   "dependencies": {
-    "@sinclair/typebox": "^0.34.48",
-    "uuid": "^13.0.0"
+    "uuid": "^13.0.0",
+    "@sinclair/typebox": "^0.34.48"
   },
   "scripts": {
     "build": "tsup 'src/**/index.ts' --format cjs,esm --dts --tsconfig tsconfig.build.json --clean",
