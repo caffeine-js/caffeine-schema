@@ -2,8 +2,8 @@ import { FormatRegistry } from "@sinclair/typebox";
 
 FormatRegistry.Set("url", (value) => {
 	try {
-		new URL(value);
-		return true;
+		const url = new URL(value);
+		return url.hostname.includes(".");
 	} catch {
 		return false;
 	}
