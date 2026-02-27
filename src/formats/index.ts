@@ -4,3 +4,4 @@ import "./uuid";
 import "./slug";
 import "./email";
 import "./json";
+import "./simple-url";
